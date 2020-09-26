@@ -12,6 +12,12 @@ Dentro de la construcción de la aplicación se ven conceptos como:
 * Uso de **HorizontalScrollView** para visualización y navegación de componentes de forma horizontal.
 * Uso de eventos **OnClick** para crear lógica de interactividad con el usuario.
 
+## Actualizaciones
+
+* Cambio de **HorizontalScrollView** por **RecyclerViewList** para una optimización en la navegación de componentes de forma Horizontal.
+* Creación de estilos para los **Estado de los botones** dentro del app.
+* Comunicación entre Actividades.
+
 
 # Resultado
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:background="#270E43"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/song01"
+        app:cardCornerRadius="25dp"
+        android:onClick="showSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/songImage"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:background="#3D225E"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bullet_cover" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/songNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Scream Aim Fire"
+        android:textColor="#ccffffff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/artistNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bullet for my Valentine"
+        android:textColor="#80FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

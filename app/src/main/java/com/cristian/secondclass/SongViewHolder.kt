@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.item_song.view.*
 class SongViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
     fun bind(item: Song) {
-        itemView.songImage.setImageDrawable(item.image)
+        itemView.songImage.setImageDrawable(itemView.context.resources.getDrawable(item.image))
         itemView.songNameText.text = item.nameSong
         itemView.artistNameText.text = item.artistName
     }

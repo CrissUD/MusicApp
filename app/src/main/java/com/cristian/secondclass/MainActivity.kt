@@ -24,22 +24,22 @@ class MainActivity : AppCompatActivity() {
         val songList: MutableList<Song> = mutableListOf()
 
         songList.add(Song(
-            resources.getDrawable(R.drawable.bullet_cover, theme),
+            R.drawable.bullet_cover,
             "Scream Aim Fire",
             "Bullet for my Valentine")
         )
         songList.add(Song(
-            resources.getDrawable(R.drawable.metallica_cover, theme),
+            R.drawable.metallica_cover,
             "And Justice for All",
             "Metallica")
         )
         songList.add(Song(
-            resources.getDrawable(R.drawable.obscura_cover, theme),
+            R.drawable.obscura_cover,
             "Omnivium",
             "Obscura")
         )
         songList.add(Song(
-            resources.getDrawable(R.drawable.queen_cover, theme),
+            R.drawable.queen_cover,
             "Bohemian Raphsody",
             "Queen")
         )
